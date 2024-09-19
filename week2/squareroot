@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+int a;
+float b;
+a=256;
+b=sqrt(a);
+printf("%f",b);
+}
