@@ -1,0 +1,25 @@
+1 #include<stdio.h>
+
+2 int main(){
+
+3 int a,b,c,d, max;
+
+4 scanf("%d%d%d%d",&a,&b, &c, &d);
+
+5 max=a;
+
+6 if(max<b)
+
+7 max=b;
+
+8 if(max<c)
+
+9 max=c;
+
+10 if(max<d)
+
+11 max=d;
+
+12 printf("big =%d", max);
+
+13}
