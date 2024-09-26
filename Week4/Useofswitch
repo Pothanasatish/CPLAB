@@ -1,0 +1,59 @@
+1 #include<stdio.h>
+
+2 int main(){
+
+3 int a, b, opt;
+
+4 scanf("%d%d, &a,&b");
+
+5 printf("select an option 1.add\n2.sub\n3.mul
+
+6 scanf("%d",&opt);
+
+7 switch(opt){
+
+8 case1:
+
+9 printf("add=%d",a+b);
+
+10 break;
+
+11 case2:
+
+12 printf("sub=%d",a-b);
+
+13 break;
+
+14 case3:
+
+15 printf("mul=%d",a*b);
+
+16 break;
+
+17 case4:
+
+18 printf("div=%d",a/b);
+
+19 break;
+
+20 case5:
+
+21 printf("mod=%d",a%b);
+
+22 break;
+
+23 default:
+
+24 printf("error");
+
+25 break;}
+
+26}
+
+
+
+
+
+
+
+
