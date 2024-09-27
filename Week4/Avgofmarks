@@ -1,0 +1,17 @@
+1 #include<stdio.h>
+
+2 int main(){
+
+3 int IP, CHEM,MAT, BCME, CE,a;
+
+4 float b;
+
+5 scanf("%d%d%d%d%d",&IP,&CHEM, &MAT,&BCME, &CE);
+
+6 a=IP+CHEM+MAT+BCME+CE;
+
+7 b=(IP+CHEM+MAT+BCME+CE)/5;
+
+8 printf("%d,%f",a,b);
+
+{
