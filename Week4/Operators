@@ -1,0 +1,21 @@
+1 #include<stdio.h>
+
+2 int main(){
+
+3 int a,b,c,d,m;
+
+4 float s;
+
+5 scanf("%d%d%d%d",&a,&b,&c,&d);
+
+6 s=a/b*c-b+a*d/3;
+
+printf("%f",s);
+
+8 m=a+++b---a;
+
+9 scanf("%d%d",&a,&b);
+
+10 printf("%d",m);
+
+{
