@@ -1,0 +1,13 @@
+1 #include<stdio.h>
+
+2 int main(){
+
+3 int a,b,c,max;
+
+4 scanf("%d%d%d",&a,&b,&c);
+
+5 max=(a>b)?(a>c?a:c): (b>c?b:c);
+
+6 printf("%d",max);
+
+7}
