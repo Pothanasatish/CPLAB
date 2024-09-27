@@ -1,0 +1,25 @@
+1 #include<stdio.h>
+
+2 int main() {
+
+3 int a,b,c,d;
+
+4 scanf("%d%d%d%d",&a,&b,&c, &d);
+
+5 if(a>b&&a>c&&a>d)
+
+6 printf("a is max");
+
+7 else if(b>c&&b>d)
+
+8 printf("b is max");
+
+9 else if(c>d)
+
+10 printf("c is max");
+
+11 else
+
+12 printf("d is big");
+
+13}
